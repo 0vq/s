@@ -1,0 +1,33 @@
+{
+  "name": "selfbot-saver",
+  "version": "1.0.1",
+  "description": "A selfbot for saving and managing Discord messages and attachments.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"No tests yet!\" && exit 0"
+  },
+  "author": "wskeef",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "discord.js-selfbot-v13": "^3.1.4",
+    "dotenv": "^16.4.5",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0vq/s.git"
+  },
+  "bugs": {
+    "url": "https://github.com/0vq/s/issues"
+  },
+  "homepage": "https://github.com/0vq/s#readme"
+}
